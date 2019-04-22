@@ -1,0 +1,35 @@
+.activeLink {
+  color: #0a466b;
+}
+
+.nav-link {
+  color: #b3c6d3;
+}
+
+navbar {
+  /* background-color: rgb(40, 50, 58); */
+  border-bottom: #0a466b 3px solid;
+  color: white;
+}
+
+.navbar {
+  
+background: rgb(1, 1, 1);
+background: linear-gradient(152deg, rgba(1, 1, 1, 1) 54%, rgba(199, 199, 197, 1) 90%);
+}
+
+.navitem {
+  color: green;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(187, 195, 241, 0.87);
+}
+
+/* button {
+  color: white;
+} */
+
+/* .navbar-toggler-icon {
+  background-color: white;
+} */

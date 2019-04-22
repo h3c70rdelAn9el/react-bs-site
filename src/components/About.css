@@ -1,0 +1,60 @@
+#about-section {
+  background-image: url(../images/john-mark-smith-174918-unsplash.jpg);
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  opacity: .8;
+}
+
+hr {
+  border-bottom: rgb(182, 189, 194) 2px solid;
+}
+
+.right-column {
+  /* z-index: 2;
+  position: relative; */
+  padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 30px;
+}
+
+.left-column {
+  padding-top: 40px;
+}
+
+.contact-icons {
+  font-size: 25px;
+}
+
+.fa-linkedin {
+  padding-left: 20px;
+}
+
+
+
+/* style="padding-top: 20px; padding-bottom: 20px;" */
+/* style="align-self: center;" */

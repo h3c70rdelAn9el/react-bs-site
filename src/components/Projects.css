@@ -1,0 +1,45 @@
+#projects-section {
+  background-image: url('../images/keyboard.jpeg');
+}
+
+h1, h2 {
+  color: rgba(255, 255, 255, 0.913);
+  text-align: center;
+}
+
+.projects-subtitle {
+  text-align: center;
+  padding: 5px;
+}
+
+.card {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  margin-top: 15px;
+}
+
+.card-subtitle {
+  min-height: 50px;
+}
+
+.card-title {
+  min-height: 60px;
+  text-decoration: underline;
+}
+
+.card-body {
+  min-height: 400px;
+}
+
+.card-content {
+  min-height: 150px;
+}
+
+.third {
+  padding-top: 10px;
+}
+
+.button {
+  margin-top: 22px;
+}
