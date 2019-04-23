@@ -14,7 +14,7 @@ export default class Home extends Component {
                 <h3 >Junior Full Stack Developer</h3>
                 <div className="container icons">
                   <p>Have a look around, or if you're into the whole brevity thing...</p> 
-                  <p>just reach me here:</p>
+                  <p>just reach me here:</p>                  
                   <a href="mailto:hectordelangel@gmail.com">
                     <i className="fas fa-envelope" ></i>
                   </a>
@@ -23,10 +23,10 @@ export default class Home extends Component {
                   </a>
                   <a href="www.linkedin.com/in/hectordelangel">
                     <i className="fab fa-linkedin"></i>
-                  </a>
-                  
-                  
-                  <i className="fas fa-file"></i> 
+                  </a> 
+                  <a href="https://docs.google.com/document/d/1UkCqNfI5W23ePYFpyD8KhO3vMqCiMPDt8eMecbB3evw/edit?usp=sharing">             
+                    <i className="fas fa-file"></i>
+                  </a> 
                 </div>
               </div>
             </div>
