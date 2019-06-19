@@ -16,11 +16,27 @@ class App extends Component {
       <Router>
         <div>      
           <MyNavbar />
-
+{/* 
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/skills" component={Skills} />
-            <Route path="/projects" component={Projects} />
+            <Route path="/projects" component={Projects} /> */}
+
+            {/* New Stuff */}
+            
+            <Home 
+              id="home"
+            />
+            <About 
+              id="about-section"
+            />
+            <Skills
+              id="skills"
+             />
+            <Projects 
+              id="projects"
+            />
+
         </div>
       </Router>
       <Footer />

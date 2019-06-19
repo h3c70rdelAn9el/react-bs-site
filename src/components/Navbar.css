@@ -1,35 +1,52 @@
-.activeLink {
+/* .activeLink {
   color: #0a466b;
-}
+} */
 
 .nav-link {
-  color: #b3c6d3;
-}
-
-navbar {
-  /* background-color: rgb(40, 50, 58); */
-  border-bottom: #0a466b 3px solid;
-  color: white;
+  color: #a9b2b8b6;
 }
 
 .navbar {
-  
-background: rgb(1, 1, 1);
-background: linear-gradient(152deg, rgba(1, 1, 1, 1) 54%, rgba(199, 199, 197, 1) 90%);
+  overflow: hidden;  
+  background: rgb(1, 1, 1);
+  background: linear-gradient(152deg, rgba(1, 1, 1, 1) 54%, rgba(199, 199, 197, 1) 90%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding-top: 20px;
 }
 
-.navitem {
-  color: green;
-}
-
-.navbar-dark .navbar-nav .nav-link {
+a:not([href]):not([tabindex]) {
   color: rgba(187, 195, 241, 0.87);
+;
 }
 
-/* button {
-  color: white;
+/* .navbar-dark .navbar-nav .nav-link {
+  color: rgba(187, 195, 241, 0.87);
 } */
 
-/* .navbar-toggler-icon {
+
+.nav-items > .active {
+  border: 2px solid darkblue;
+  border-radius: 25%;
+  opacity: .8;
+}
+
+
+.nav-items {
+  margin-right: 10px;
+}
+
+.link {
+  padding: 20px;
+}
+
+/* 
+button {
+  color: white;
+}
+
+.navbar-toggler-icon {
   background-color: white;
 } */

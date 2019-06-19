@@ -6,9 +6,9 @@ import misty from '../images/mistylaptop.JPG';
 export default class Skills extends Component {
   render() {
     return (
-      <div className="skills-section">
+      <div className="skills-section" id="skills">
         <div className="dark-overlay">
-        <h1>Skills</h1>
+        <h1 classname="skills-title">Skills</h1>
 
         <div id="skills-section" class="py-5">
     <div className="container">
@@ -21,8 +21,9 @@ export default class Skills extends Component {
             <ul className="skills-list text-center list-unstyled">
               <li>HTML5</li>
               <li>CSS</li>
-              <li>Javascript</li>
               <li>Bootstrap</li>
+              <li>Javascript</li>
+              <li>Wordpress</li>
               <li>RoR</li>
               <li>React</li>
             </ul>

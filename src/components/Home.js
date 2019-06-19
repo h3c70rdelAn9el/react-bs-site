@@ -4,7 +4,7 @@ import './Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div id="home">
        <header id="home-section">
         <div className="dark-overlay">
           <div className="home-inner">
@@ -13,7 +13,7 @@ export default class Home extends Component {
                 <h1 >Hector del Angel</h1>
                 <h3 >Junior Full Stack Developer</h3>
                 <div className="container icons">
-                  <p>Have a look around, or if you're into the whole brevity thing...</p> 
+                  <p>Hey! Thanks for stopping by, look around, or</p> 
                   <p>just reach me here:</p>                  
                   <a href="mailto:hectordelangel@gmail.com">
                     <i className="fas fa-envelope" ></i>
