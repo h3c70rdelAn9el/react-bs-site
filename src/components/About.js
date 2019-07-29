@@ -20,7 +20,7 @@ export default class About extends Component {
             <hr className="hr-light"/>
             I come from a private musical teaching career, primarily guitar, some other instruments from time to time.
             <br/>
-            It has had provided me with countless experiences over the years that have helped me interact, listen, and help guide my students to their own successes.
+            It has had provided me with countless experiences over the years, which have helped me interact, listen, and help guide my students and clients.
             <br/>
             <hr className="hr-light"/>
             I consider myself one of those ‘forever students’, hungry for knowledge, and more than eager to always learn and apply things. I constantly try to look for different solutions for problems, to perhaps try to find different or more insightful ways to a solution. 

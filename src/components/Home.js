@@ -10,7 +10,7 @@ export default class Home extends Component {
           <div className="home-inner">
             <div className="container">
               <div className="head-titles">
-                <h1 >Hector del Angel</h1>
+                <h1 className="main-title" >Hector del Angel</h1>
                 <h3 >Junior Full Stack Developer</h3>
                 <div className="container icons">
                   <p>Hey! Thanks for stopping by, look around, or</p> 

@@ -2,7 +2,7 @@
   background: rgb(199, 199, 197);
   background: linear-gradient(186deg, rgba(199, 199, 197, 1) 0%, rgba(1, 1, 1, 1) 41%);
   border-top: grey 3px solid;
-  height: auto;
+  bottom: 100%;
 }
 
 p {

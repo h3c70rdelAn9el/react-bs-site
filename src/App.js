@@ -8,6 +8,7 @@ import MyNavbar from './components/Navbar';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 class App extends Component {
   render() {
@@ -35,6 +36,9 @@ class App extends Component {
              />
             <Projects 
               id="projects"
+            />
+            <Resume 
+              id="resume"
             />
 
         </div>

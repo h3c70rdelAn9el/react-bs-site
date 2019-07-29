@@ -9,16 +9,16 @@ export default class Projects extends Component {
   render() {
     return (
       <div id="projects">
-          <section id="projects-section">
-    <div class="projects-dark-overlay">
-    <h1 class="projects-title">Projects</h1>
-    <p class="projects-subtitle">Just a few projects made with different libraries, languages, and databases</p>
-    <div class="container">
-      <div class="row">
+        <section id="projects-section">
+        <div class="projects-dark-overlay">
+        <h1 class="projects-title">Projects</h1>
+        <p class="projects-subtitle">Just a few projects made with different libraries, languages, and databases</p>
+        <div class="container projects-content">
+          <div class="row">
 
         <div class="col-md-4">
           <div class="card">
-            <a href="https://damp-harbor-52522.herokuapp.com/">
+            <a href="https://damp-harbor-52522.herokuapp.com/" class="card-img">
               <img src={money} alt=""/>
             </a>
             <div class="card-body">
@@ -41,7 +41,7 @@ export default class Projects extends Component {
 
         <div class="col-md-4">
           <div class="card">
-            <a href="https://quiet-refuge-83664.herokuapp.com/">
+            <a href="https://quiet-refuge-83664.herokuapp.com/" class="card-img">
               <img src={subscription} alt=""/>
             </a>
             <div class="card-body">
@@ -65,12 +65,12 @@ export default class Projects extends Component {
 
           <div class="col-md-4">
             <div class="card">
-              <a href="/">
-                <img src={helloquence} alt=""/>
+              <a href="/" className="card-img">
+                <img src={helloquence} alt="helloquence"/>
               </a>
-              <div class="card-body">
-                <h4 class="card-title">GitHub</h4>
-                <p class="card-subtitle text-center">Misc Projects on Github</p>
+              <div className="card-body">
+                <h4 className="card-title">GitHub</h4>
+                <p className="card-subtitle text-center">Misc Projects on Github</p>
                 <hr/>
                 <div class="card-content third">
                   <p>Rails Projects</p>

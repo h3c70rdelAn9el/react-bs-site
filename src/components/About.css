@@ -4,6 +4,7 @@
   width: 100%;
   opacity: .8;
   padding-top: 10px;
+  z-index: 1;
 }
 
 .dark-overlay {
@@ -14,6 +15,7 @@
   width: 100%;
   height: 100%;
   opacity: 1;
+  z-index: 2;
 }
 
 img {
@@ -23,6 +25,7 @@ img {
   padding-top: 25px;
   padding-bottom: 25px;
   opacity: .8;
+  z-index: 3;
 }
 
 hr {
