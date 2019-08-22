@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import './Skills.css';
 import misty from '../images/mistylaptop.JPG';
+
+
 
 export default class Skills extends Component {
   render() {
@@ -11,7 +14,8 @@ export default class Skills extends Component {
         <h1 classname="skills-title">Skills</h1>
 
         <div id="skills-section" class="py-5">
-    <div className="container">
+        <ScrollAnimation animateIn="fadeIn">;
+    <div className="container skills-content">
       <div className="row">
         <div className="col-md-6">
         <hr/>
@@ -57,6 +61,7 @@ export default class Skills extends Component {
 
 
     </div>
+    </ScrollAnimation>
 
           </div>
           </div>

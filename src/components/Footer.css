@@ -1,31 +1,59 @@
 .footer {
+  position: relative;
   background: rgb(199, 199, 197);
   background: linear-gradient(186deg, rgba(199, 199, 197, 1) 0%, rgba(1, 1, 1, 1) 41%);
   border-top: grey 3px solid;
   bottom: 100%;
+  z-index: 10;
+  /* display: inline-flex; */
 }
 
 p {
   margin: 0;
 }
 
+.footer-name {
+  color: white;
+
+}
+
+.silly {
+  font-size: 12px;
+}
+
+.footer-left {
+  /* display: inline-block; */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+i.fas.fa-copyright {
+  font-size: 10px;
+}
+
+.copyright {
+  display: inline-flex;
+}
+
 .footer-right {
+  /* padding: 20px; */
+  font-size: 15px;
+  display: inline-flex;
   text-align: right;
 }
 
-.footer-right {
-  padding: 20px;
-  font-size: 20px;
-}
-
 i {
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .fa-envelope {
-  padding-left: 0px;
+  padding-left: 50px;
 }
 
 .fa-github {
-  padding-right: 16px;
+  padding-right: 28px;
+}
+
+.fa-linkedin {
+  padding-right: 30px;
 }

@@ -10,12 +10,13 @@ export default class Home extends Component {
           <div className="home-inner">
             <div className="container">
               <div className="head-titles">
-                <h1 className="main-title" >Hector del Angel</h1>
+                <h1 className="main-title">Hector del Angel</h1>
                 <h3 >Junior Full Stack Developer</h3>
                 <div className="container icons">
                   <p>Hey! Thanks for stopping by, look around, or</p> 
-                  <p>just reach me here:</p>                  
-                  <a href="mailto:hectordelangel@gmail.com">
+                  <p>just reach me here:</p>
+                  <div className="container page-icons">
+                    <a href="mailto:hectordelangel@gmail.com">
                     <i className="fas fa-envelope" ></i>
                   </a>
                   <a href="https://github.com/h3c70rdelAn9el">
@@ -27,6 +28,8 @@ export default class Home extends Component {
                   <a href="https://docs.google.com/document/d/1UkCqNfI5W23ePYFpyD8KhO3vMqCiMPDt8eMecbB3evw/edit?usp=sharing">             
                     <i className="fas fa-file"></i>
                   </a> 
+                  </div>                  
+                  
                 </div>
               </div>
             </div>

@@ -1,5 +1,8 @@
 {
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Victor Mono,  Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
-  "workbench.colorTheme": "Cobalt2 Italic"
+  "workbench.colorTheme": "Cobalt2 Italic",
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.6,
+  "editor.fontWeight": "600"
 }

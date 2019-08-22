@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import Arrow from './components/Arrow';
 
 class App extends Component {
   render() {
@@ -17,13 +18,7 @@ class App extends Component {
       <Router>
         <div>      
           <MyNavbar />
-{/* 
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/projects" component={Projects} /> */}
-
-            {/* New Stuff */}
+            <Arrow />
             
             <Home 
               id="home"

@@ -37,43 +37,47 @@ p {
   text-align: center;
 }
 
+.page-icons {
+  display: inline-flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
 .fa-envelope{
-  padding-right: 20px;
+  /* padding-right: 20px;
   padding-left: 20px;
-  padding-top: 15px;
-  color: blue;
+  padding-top: 15px; */
+  color: rgba(167, 167, 228, 0.927);
+  width: 50px;
 }
 
 .fa-github {
-  margin-right: -8px;
-  color: blue;
+  /* margin-right: -8px; */
+  color: rgba(167, 167, 228, 0.927);
 }
 
 .fa-linkedin {
-  padding-right: 20px;
-  color: blue;
+  /* padding-right: 20px; */
+  color: rgba(167, 167, 228, 0.927);
 }
 
 .fa-file {
-  color: blue;
+  color: rgba(167, 167, 228, 0.927);
 }
 
 .fa-github:hover {
-  color: lightblue;
+  color: blue;
 }
 
 .fa-file:hover {
-  color: lightblue;
+  color: blue;
 }
 
 .fa-linkedin:hover {
-  color: lightblue;
+  color: blue;
 }
 
 .fa-envelope:hover {
-  color: lightblue;
+  color: blue;
 }
-
-
-
-

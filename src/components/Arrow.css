@@ -1,0 +1,48 @@
+.arrow {
+  position: fixed;
+  top: 80%;
+  left: 140%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.arrow span {
+  display: block;
+  width: 27px;
+  height: 27px;
+  border-bottom: 5px solid rgb(166, 166, 244);
+  border-right: 5px solid rgb(166, 166, 244);
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+@media (max-width: 575px) {
+  .arrow {
+    visibility: hidden;
+  }
+}

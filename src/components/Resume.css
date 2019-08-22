@@ -1,5 +1,7 @@
 .resume-section {
+  position: relative;
   background-color: black;
+  z-index: 10;
 }
 
 h1 {

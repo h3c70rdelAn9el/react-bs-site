@@ -4,8 +4,13 @@
 body {
   color: rgb(218, 206, 206);
   font-family: 'Nanum Myeongjo', serif;
-  width: inherit;
+  /* width: 100%; */
   margin: 0;
+  padding-right: -220px;
+}
+
+* {
+  width: 100%;
 }
 
 
