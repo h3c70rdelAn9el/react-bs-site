@@ -8,8 +8,8 @@
 
 .arrow span {
   display: block;
-  width: 27px;
-  height: 27px;
+  width: 15px;
+  height: 15px;
   border-bottom: 5px solid rgb(166, 166, 244);
   border-right: 5px solid rgb(166, 166, 244);
   transform: rotate(45deg);
@@ -32,7 +32,7 @@
   }
 
   50% {
-    opacity: 1;
+    opacity: .3;
   }
 
   100% {

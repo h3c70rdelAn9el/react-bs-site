@@ -10,4 +10,25 @@ h1 {
 
 .resume-title{
   text-align: center;
+  width: 25%;
+  padding-bottom: 14px;
+}
+
+
+
+@media (max-width: 767px) {
+  /* .resume-title {
+    width: 50%;
+  } */
+  .btn.btn-primary.btn-small {
+    /* border-radius: 50%; */
+    width: 100%;
+  }
+  .resume-button {
+    /* width: 450px; */
+  }
+  a.btn.btn-primary.resume-button {
+    border-radius: 50%;
+    width: 100%;
+  }
 }
