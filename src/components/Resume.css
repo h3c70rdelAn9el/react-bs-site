@@ -21,11 +21,7 @@ h1 {
     width: 50%;
   } */
   .btn.btn-primary.btn-small {
-    /* border-radius: 50%; */
     width: 100%;
-  }
-  .resume-button {
-    /* width: 450px; */
   }
   a.btn.btn-primary.resume-button {
     border-radius: 50%;
