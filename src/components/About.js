@@ -37,8 +37,12 @@ export default class About extends Component {
                       <hr className="hr-light"/>
                 <ScrollAnimation animateIn="fadeIn">
                     <p>
-                      I constantly try to look for different solutions for problems, to perhaps try to find different or more insightful ways to a solution.
+                      Since learning to code, my life started to gravitate more and more towards that path of career.
                       </p> 
+                      <br/>
+                      <p>
+                        I can truly say that I eagerly look forward to expanding more of my knowledge through the people I meet, seminars, books, videos, challenges and work that I hope to encounter.
+                      </p>
                       <br/>
                       </ScrollAnimation>
                       <hr className="hr-light"/>

@@ -16,7 +16,7 @@ export default class Projects extends Component {
         <h1 class="projects-title">Projects</h1>
         <ScrollAnimation animateIn="fadeIn">
 
-          <p class="projects-subtitle">Just a few projects made with different libraries, languages, and databases</p>
+          <p class="projects-subtitle">Just a few personal projects made with different libraries, languages, and databases</p>
         </ScrollAnimation>       
         <div class="container projects-content">
           <div class="row">
@@ -40,7 +40,7 @@ export default class Projects extends Component {
                         <p>Heroku</p>
                       </div>
                   </div>
-                  <a href="https://damp-harbor-52522.herokuapp.com/" class="btn btn-primary">Visit</a>
+                  <a href="https://damp-harbor-52522.herokuapp.com/" class="btn btn-primary first">Visit</a>
                 </div>
               </div>
               </ScrollAnimation>
@@ -66,7 +66,7 @@ export default class Projects extends Component {
                         <p>Heroku</p>
                       </div>
                   </div>
-                  <a href="https://quiet-refuge-83664.herokuapp.com/" class="btn btn-primary">Visit</a>
+                  <a href="https://quiet-refuge-83664.herokuapp.com/" class="btn btn-primary second">Visit</a>
                 </div>
               </div>
               </ScrollAnimation>
@@ -79,18 +79,19 @@ export default class Projects extends Component {
               <a href="/" className="card-img">
                 <img src={helloquence} alt="helloquence"/>
               </a>
-              <div className="card-body">
-                <h4 className="card-title">GitHub</h4>
+              <div className="card-body third">
+                <h4 className="card-title third">GitHub</h4>
                 <p className="card-subtitle text-center">Misc Projects on Github</p>
                 <hr/>
-                <div class="card-content third">
+                <div class="container card-content third">
                   <p>Rails Projects</p>
                   <p>JS Exercises</p>
                   <p>React</p>
                   <p>MDL practice</p>
                   <p>Chat App</p>
+                  <p>This site</p>
                 </div>
-                <a href="https://github.com/h3c70rdelAn9el" class="btn btn-primary button">Visit</a>
+                <a href="https://github.com/h3c70rdelAn9el" class="btn btn-primary button third">Visit</a>
               </div>
             </div>
             </ScrollAnimation> 
