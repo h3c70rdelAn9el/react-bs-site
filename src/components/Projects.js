@@ -10,7 +10,7 @@ import helloquence from '../images/helloquence-61189-unsplash.jpg';
 export default class Projects extends Component {
   render() {
     return (
-      <div id="projects">
+      <div id="projects" className="mb-4">
         <section id="projects-section">
         <div class="projects-dark-overlay">
         <h1 class="projects-title">Projects</h1>

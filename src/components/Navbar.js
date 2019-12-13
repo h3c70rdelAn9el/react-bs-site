@@ -60,17 +60,6 @@ export default class Navbar extends Component {
               Projects
             </Link>
             
-            <Link
-              className = "link"
-              activeClass="active"
-              to="resume"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Resume
-            </Link>
           </ul>
         </div>
       </nav>

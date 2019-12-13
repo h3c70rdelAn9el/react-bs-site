@@ -8,7 +8,6 @@ import MyNavbar from './components/Navbar';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
 import Arrow from './components/Arrow';
 
 class App extends Component {
@@ -32,9 +31,7 @@ class App extends Component {
             <Projects 
               id="projects"
             />
-            <Resume 
-              id="resume"
-            />
+
 
         </div>
       </Router>
